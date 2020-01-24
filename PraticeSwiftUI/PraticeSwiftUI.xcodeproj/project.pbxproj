@@ -15,6 +15,11 @@
 		4301DEF923DB22E200AFDFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4301DEF723DB22E200AFDFCA /* LaunchScreen.storyboard */; };
 		4301DF0423DB22E200AFDFCA /* PraticeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF0323DB22E200AFDFCA /* PraticeSwiftUITests.swift */; };
 		4301DF0F23DB22E200AFDFCA /* PraticeSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF0E23DB22E200AFDFCA /* PraticeSwiftUIUITests.swift */; };
+		4301DF2023DB23F900AFDFCA /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 4301DF1C23DB23F900AFDFCA /* menu.json */; };
+		4301DF2123DB23F900AFDFCA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF1D23DB23F900AFDFCA /* Menu.swift */; };
+		4301DF2223DB23F900AFDFCA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF1E23DB23F900AFDFCA /* Order.swift */; };
+		4301DF2323DB23F900AFDFCA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF1F23DB23F900AFDFCA /* Helper.swift */; };
+		4301DF2523DB27AD00AFDFCA /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF2423DB27AD00AFDFCA /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		4301DF0A23DB22E200AFDFCA /* PraticeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraticeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4301DF0E23DB22E200AFDFCA /* PraticeSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraticeSwiftUIUITests.swift; sourceTree = "<group>"; };
 		4301DF1023DB22E200AFDFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4301DF1C23DB23F900AFDFCA /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		4301DF1D23DB23F900AFDFCA /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		4301DF1E23DB23F900AFDFCA /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4301DF1F23DB23F900AFDFCA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4301DF2423DB27AD00AFDFCA /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				4301DEEC23DB22E100AFDFCA /* AppDelegate.swift */,
 				4301DEEE23DB22E100AFDFCA /* SceneDelegate.swift */,
 				4301DEF023DB22E100AFDFCA /* ContentView.swift */,
+				4301DF1C23DB23F900AFDFCA /* menu.json */,
+				4301DF1F23DB23F900AFDFCA /* Helper.swift */,
+				4301DF1D23DB23F900AFDFCA /* Menu.swift */,
+				4301DF2423DB27AD00AFDFCA /* ItemRow.swift */,
+				4301DF1E23DB23F900AFDFCA /* Order.swift */,
 				4301DEF223DB22E200AFDFCA /* Assets.xcassets */,
 				4301DEF723DB22E200AFDFCA /* LaunchScreen.storyboard */,
 				4301DEFA23DB22E200AFDFCA /* Info.plist */,
@@ -242,6 +257,7 @@
 			files = (
 				4301DEF923DB22E200AFDFCA /* LaunchScreen.storyboard in Resources */,
 				4301DEF623DB22E200AFDFCA /* Preview Assets.xcassets in Resources */,
+				4301DF2023DB23F900AFDFCA /* menu.json in Resources */,
 				4301DEF323DB22E200AFDFCA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +285,11 @@
 			files = (
 				4301DEED23DB22E100AFDFCA /* AppDelegate.swift in Sources */,
 				4301DEEF23DB22E100AFDFCA /* SceneDelegate.swift in Sources */,
+				4301DF2223DB23F900AFDFCA /* Order.swift in Sources */,
+				4301DF2523DB27AD00AFDFCA /* ItemRow.swift in Sources */,
+				4301DF2123DB23F900AFDFCA /* Menu.swift in Sources */,
 				4301DEF123DB22E100AFDFCA /* ContentView.swift in Sources */,
+				4301DF2323DB23F900AFDFCA /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
