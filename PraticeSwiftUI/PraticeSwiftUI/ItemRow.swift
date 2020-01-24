@@ -13,9 +13,12 @@ struct ItemRow: View {
     
     var body: some View {
         HStack {
-            Image(item.thumbnailImage).cornerRadius(10)
+            Image(item.thumbnailImage)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.gray, lineWidth: 1))
             VStack(alignment: .leading) {
                 Text(item.name)
+                    .font(.headline)
                 Text("$\(item.price)")
             }
             

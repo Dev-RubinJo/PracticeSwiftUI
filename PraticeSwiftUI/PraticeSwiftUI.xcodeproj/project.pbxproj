@@ -111,11 +111,11 @@
 			children = (
 				4301DEEC23DB22E100AFDFCA /* AppDelegate.swift */,
 				4301DEEE23DB22E100AFDFCA /* SceneDelegate.swift */,
+				4301DF2423DB27AD00AFDFCA /* ItemRow.swift */,
 				4301DEF023DB22E100AFDFCA /* ContentView.swift */,
 				4301DF1C23DB23F900AFDFCA /* menu.json */,
 				4301DF1F23DB23F900AFDFCA /* Helper.swift */,
 				4301DF1D23DB23F900AFDFCA /* Menu.swift */,
-				4301DF2423DB27AD00AFDFCA /* ItemRow.swift */,
 				4301DF1E23DB23F900AFDFCA /* Order.swift */,
 				4301DEF223DB22E200AFDFCA /* Assets.xcassets */,
 				4301DEF723DB22E200AFDFCA /* LaunchScreen.storyboard */,
