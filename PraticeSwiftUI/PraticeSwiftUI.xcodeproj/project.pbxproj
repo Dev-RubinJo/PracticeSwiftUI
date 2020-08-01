@@ -20,6 +20,7 @@
 		4301DF2223DB23F900AFDFCA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF1E23DB23F900AFDFCA /* Order.swift */; };
 		4301DF2323DB23F900AFDFCA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF1F23DB23F900AFDFCA /* Helper.swift */; };
 		4301DF2523DB27AD00AFDFCA /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301DF2423DB27AD00AFDFCA /* ItemRow.swift */; };
+		43623F1824D534FC00F36D4F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43623F1724D534FC00F36D4F /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		4301DF1E23DB23F900AFDFCA /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		4301DF1F23DB23F900AFDFCA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4301DF2423DB27AD00AFDFCA /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		43623F1724D534FC00F36D4F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4301DEEC23DB22E100AFDFCA /* AppDelegate.swift */,
 				4301DEEE23DB22E100AFDFCA /* SceneDelegate.swift */,
 				4301DF2423DB27AD00AFDFCA /* ItemRow.swift */,
+				43623F1724D534FC00F36D4F /* SwiftUIView.swift */,
 				4301DEF023DB22E100AFDFCA /* ContentView.swift */,
 				4301DF1C23DB23F900AFDFCA /* menu.json */,
 				4301DF1F23DB23F900AFDFCA /* Helper.swift */,
@@ -285,6 +288,7 @@
 			files = (
 				4301DEED23DB22E100AFDFCA /* AppDelegate.swift in Sources */,
 				4301DEEF23DB22E100AFDFCA /* SceneDelegate.swift in Sources */,
+				43623F1824D534FC00F36D4F /* SwiftUIView.swift in Sources */,
 				4301DF2223DB23F900AFDFCA /* Order.swift in Sources */,
 				4301DF2523DB27AD00AFDFCA /* ItemRow.swift in Sources */,
 				4301DF2123DB23F900AFDFCA /* Menu.swift in Sources */,
