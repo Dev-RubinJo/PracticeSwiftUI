@@ -8,31 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+ 
+    @State private var wifiEnabled: Bool = true
+    @State private var userName: String = ""
     
     var body: some View {
-        MyVStack {
-            Text("Text 1")
-            Text("Text 1")
-            HStack {
-                Image(systemName: "star.fill")
-                Image(systemName: "star.fill")
-                Image(systemName: "star")
-            }
+        VStack {
+            Toggle(isOn: $wifiEnabled, label: {
+                Text("Enable Wi-Fi")
+            })
+            
+            TextField("Enter user name", text: $userName)
+            Text(userName)
+            WifiImageView(wifiEnabled: $wifiEnabled)
         }
     }
 }
 
-struct MyVStack<Content: View>: View {
-    let content: () -> Content
-    init(@ViewBuilder content: @escaping () -> Content) {
-        self.content = content
-    }
+struct WifiImageView: View {
+    
+    @Binding var wifiEnabled: Bool
     
     var body: some View {
-        VStack(spacing: 10) {
-            content()
-        }
-        .font(.largeTitle)
+        Image(systemName: wifiEnabled ? "wifi" : "wifi.slash")
     }
 }
 
